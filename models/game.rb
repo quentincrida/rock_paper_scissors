@@ -22,9 +22,9 @@ class Game
       @result = 'hand1 wins'
 
     elsif hand2 == 'paper' && hand1 == 'rock'
-      @result = 'hand2 wins
+      @result = 'hand2 wins'
 
       return @result
     end
-
+  end
 end
