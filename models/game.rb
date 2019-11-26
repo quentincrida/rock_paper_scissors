@@ -1,6 +1,6 @@
 class Game
 
-  def check_hand(hand1, hand2)
+  def self.check_hand(hand1, hand2)
 
     @result = ''
 
